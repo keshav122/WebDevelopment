@@ -1,0 +1,20 @@
+h1{
+	color : rgba(0, 200,100, 0.8);
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+border : 3px solid #FF6799;
+}
+h4{
+	background: rgb(255, 100 , 80);
+}
+body{
+
+     background: pink;
+	/*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUA-XTK7aasiFLPSG5W9hEz2lzxKUE5ox7yA&usqp=CAU);*/
+	/*To ensure there is no tiling or repitition of the selected image */
+	background-repeat: no-repeat;
+	/*To let the selected image cover the whole area*/
+	background-size: cover;
+}

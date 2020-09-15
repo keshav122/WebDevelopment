@@ -1,0 +1,49 @@
+
+ <!-- radio button -->
+ <!-- select tag -->
+ <!-- textarea tag -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+<p>Do you prefer cats or dogs</p>
+
+ <form>
+<!-- Both the inputs have same names to ensure only one value between cats and dogs is chosen
+ -->
+<label for="dogs">Dogs: </label>
+<input id="dogs" name="petChoice" type="radio" value="DOGS">
+
+<label for="cats">Cats: </label>
+<input id="cats" type="radio" name="petChoice" value="CATS">
+
+
+
+<p>What is your favorite color</p>
+<select name="color">
+<option>Red</option>
+<option>Yellow</option>
+<option>Orange</option>
+</select>
+
+<!-- In case we want send different value than options
+As by default it sends identical value to the server -->
+<p>What is your current mood</p>
+<select name="mood">
+<option value="happy">:)</option>
+<option value="neutral">:|</option>
+<option value="sad">:(</option>
+</select>
+
+<p>Describe how was your day?</p>
+<textarea name="paragraph" rows="10" cols="30"></textarea>
+
+<p><button>Go!</button></p>
+
+ </form>
+
+</body>
+</html>
